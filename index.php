@@ -129,6 +129,7 @@ echo '<li role="presentation" class="divider"></li><li role="presentation" class
 
 <!-- Replace below stylesheet with your own stylesheet -->
 <link rel="stylesheet" href="css/dfz.css">
+<link rel="stylesheet" href="css/dfzCustom.css">
 </head>
 <body   data-spy="scroll" data-target=".navbar-default" data-offset="60" >
 <!-- Fixed navbar -->
