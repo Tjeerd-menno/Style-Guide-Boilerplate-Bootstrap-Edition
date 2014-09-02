@@ -2397,6 +2397,9 @@ input[type="datetime-local"].input-sm,
 input[type="month"].input-sm {
   line-height: 27px;
 }
+input[type="date"].error{
+border-color: red;
+}
 input[type="date"].input-lg,
 input[type="time"].input-lg,
 input[type="datetime-local"].input-lg,
@@ -2568,7 +2571,7 @@ select[multiple].input-lg {
 .has-warning .form-control-feedback {
   color: #8a6d3b;
 }
-.has-error .help-block,
+.has-error .help-tblock,
 .has-error .control-label,
 .has-error .radio,
 .has-error .checkbox,
