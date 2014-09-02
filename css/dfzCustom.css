@@ -77,17 +77,6 @@ hr.divider {
     font-size: 14px; /* gelijk aan body */
 }
 
-/* Met name voor een well-medium (gekleurde background) willen we een well oprekken
-    Op de productoverzicht en -detail moet het dan ook voor de daaronder aanwezige well-transparent.
-    Daarom gekozen voor alle wells rechtstreeks binnen een panel-body ' */
-.panel-body > .well {
-    margin-left: -13px;
-    margin-top: -13px;
-    margin-right: -13px;
-    -ms-border-radius: 10px 0 0;
-    border-radius: 10px 0 0;
-}
-
 .platform {
     background: url("/content/images/table/mobile-platforms-sprite.png") no-repeat scroll 0 0 transparent;
     display: inline-block;
